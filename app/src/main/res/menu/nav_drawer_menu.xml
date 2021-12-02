@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item android:id="@+id/navHome"
+        android:title="Home"
+        android:icon="@drawable/ic_home"/>
+
+    <item android:id="@+id/navLocation"
+        android:title="Location"
+        android:icon="@drawable/ic_location"/>
+
+    <item android:id="@+id/navMessage"
+        android:title="Message"
+        android:icon="@drawable/ic_recommendation"/>
+
+    <item android:id="@+id/navSetting"
+        android:title="Setting"
+        android:icon="@drawable/ic_settings"/>
+
+    <item  android:title="Communication">
+        <menu>
+            <item android:id="@+id/navShare"
+                android:title="Share"
+                android:icon="@drawable/ic_share"/>
+
+            <item android:id="@+id/navRecommendation"
+                android:title="Review"
+                android:icon="@drawable/ic_recommend"/>
+        </menu>
+
+    </item>
+
+</menu>

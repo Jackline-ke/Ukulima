@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".onBoard2">
+
+    <ImageView
+        android:id="@+id/onBoard2Image"
+        android:layout_width="392dp"
+        android:layout_height="332dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/onboard2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/onBoard2Text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Plant care"
+        android:textColor="#071107"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onBoard2Image" />
+
+    <TextView
+        android:id="@+id/onBoard2Text2"
+        android:layout_width="360dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Know the health of your plant. \n A healthy plant a happy you."
+        android:textColor="#000000"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/onBoard2Text1" />
+
+    <Button
+        android:id="@+id/onBoard2Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#b3ffb3"
+        android:gravity="center"
+        android:text="Next"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:cornerRadius="15dp"
+        app:layout_constraintEnd_toEndOf="@+id/onBoard2Text2"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/onBoard2Text2"
+        app:layout_constraintTop_toBottomOf="@+id/onBoard2Text2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

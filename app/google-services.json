@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "200839460810",
+    "firebase_url": "https://ukulima-ebf9b-default-rtdb.firebaseio.com",
+    "project_id": "ukulima-ebf9b",
+    "storage_bucket": "ukulima-ebf9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200839460810:android:2d2baf19d58350606c4133",
+        "android_client_info": {
+          "package_name": "com.example.ukulima"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200839460810-mft4c8q20ep4nv6gp5e92gon9jd49ebc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuHNkEU6NE2CHCPob2oPZhH6XPg8ztvV0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "200839460810-mft4c8q20ep4nv6gp5e92gon9jd49ebc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
