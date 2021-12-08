@@ -30,5 +30,5 @@ class onBoard3 : Fragment() {
 
         return view
 
-    }
+    }  
 }

@@ -15,9 +15,9 @@
         android:title="Message"
         android:icon="@drawable/ic_recommendation"/>
 
-    <item android:id="@+id/navSetting"
-        android:title="Setting"
-        android:icon="@drawable/ic_settings"/>
+    <item android:id="@+id/navProfile"
+        android:title="Profile"
+        android:icon="@drawable/ic_person"/>
 
     <item  android:title="Communication">
         <menu>
@@ -25,9 +25,6 @@
                 android:title="Share"
                 android:icon="@drawable/ic_share"/>
 
-            <item android:id="@+id/navRecommendation"
-                android:title="Review"
-                android:icon="@drawable/ic_recommend"/>
         </menu>
 
     </item>

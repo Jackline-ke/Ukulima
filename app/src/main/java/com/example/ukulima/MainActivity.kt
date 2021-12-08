@@ -35,9 +35,8 @@ class MainActivity : AppCompatActivity() {
                 R.id.navHome -> Toast.makeText(applicationContext, "Home", Toast.LENGTH_SHORT).show()
                 R.id.navLocation -> Toast.makeText(applicationContext, "Location", Toast.LENGTH_SHORT).show()
                 R.id.navMessage -> Toast.makeText(applicationContext, "Message", Toast.LENGTH_SHORT).show()
-                R.id.navSetting -> Toast.makeText(applicationContext, "Setting", Toast.LENGTH_SHORT).show()
+                R.id.navProfile -> Toast.makeText(applicationContext, "Setting", Toast.LENGTH_SHORT).show()
                 R.id.navShare -> Toast.makeText(applicationContext, "Share", Toast.LENGTH_SHORT).show()
-                R.id.navRecommendation -> Toast.makeText(applicationContext, "Review", Toast.LENGTH_SHORT).show()
 
             }
             true

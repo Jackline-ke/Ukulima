@@ -7,6 +7,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
+import androidx.navigation.fragment.findNavController
 import com.example.ukulima.databinding.FragmentProductsBinding
 import com.example.ukulima.databinding.ProductListItemBinding
 import com.google.firebase.database.*
@@ -14,13 +15,15 @@ import java.util.ArrayList
 
 private const val TAG = "ProductsFragment"
 class ProductsFragment : Fragment() {
+
     private lateinit var binding: FragmentProductsBinding
     private lateinit var reference: DatabaseReference
     private lateinit var productList: ArrayList<ProductsModel>
     private val productAdapter by lazy {
         ProductAdapter(ProductAdapter.OnClickListener{ product ->
-            Toast.makeText(requireContext(), "${product.title}", Toast.LENGTH_SHORT).show()
-
+            val action = ProductsFragmentDirections.actionProductsFragmentToDetail(product)
+            findNavController().navigate(action)
+            Log.d(TAG, "arguments: $product")
         })
     }
 
